@@ -1,0 +1,16 @@
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\bin\Debug\Negocio.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\bin\Debug\Negocio.pdb
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\bin\Debug\Repositorio.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\bin\Debug\TO.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\bin\Debug\Dados.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\bin\Debug\Repositorio.pdb
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\bin\Debug\TO.pdb
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\bin\Debug\Dados.pdb
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\bin\Debug\Dados.dll.config
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\obj\Debug\Negocio.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Negocio\obj\Debug\Negocio.pdb
