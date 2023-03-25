@@ -1,0 +1,2 @@
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\obj\Debug\Web.csproj.AssemblyReference.cache
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\obj\Debug\Web.csproj.CoreCompileInputs.cache
