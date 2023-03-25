@@ -1,0 +1,12 @@
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Dados\bin\Debug\Dados.dll.config
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Dados\bin\Debug\Dados.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Dados\bin\Debug\Dados.pdb
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Dados\bin\Debug\EntityFramework.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Dados\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Dados\bin\Debug\EntityFramework.xml
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Dados\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Dados\obj\Debug\Dados.csproj.AssemblyReference.cache
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Dados\obj\Debug\Dados.csproj.CoreCompileInputs.cache
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Dados\obj\Debug\Dados.csproj.CopyComplete
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Dados\obj\Debug\Dados.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Dados\obj\Debug\Dados.pdb

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ExemploMaterializacaoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Atendimento">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdPaciente" Type="int" Nullable="false" />
+    <Property Name="Anamnese" Type="varchar" MaxLength="500" />
+    <Property Name="ExameFisico" Type="varchar" MaxLength="500" />
+    <Property Name="CID" Type="varchar" MaxLength="50" />
+    <Property Name="DataCriacao" Type="datetime" Nullable="false" />
+    <Property Name="DataEdicao" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Paciente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="NomeMae" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="Nascimento" Type="date" />
+    <Property Name="Sexo" Type="int" />
+    <Property Name="DataCriacao" Type="datetime" Nullable="false" />
+    <Property Name="DataEdicao" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Atendimento_Paciente">
+    <End Role="Paciente" Type="Self.Paciente" Multiplicity="1" />
+    <End Role="Atendimento" Type="Self.Atendimento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Paciente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Atendimento">
+        <PropertyRef Name="IdPaciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ExemploMaterializacaoModelStoreContainer">
+    <EntitySet Name="Atendimento" EntityType="Self.Atendimento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Paciente" EntityType="Self.Paciente" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Atendimento_Paciente" Association="Self.FK_Atendimento_Paciente">
+      <End Role="Paciente" EntitySet="Paciente" />
+      <End Role="Atendimento" EntitySet="Atendimento" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
