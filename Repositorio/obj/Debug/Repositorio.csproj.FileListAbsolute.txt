@@ -1,0 +1,14 @@
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\bin\Debug\Dados.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\bin\Debug\TO.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\bin\Debug\Dados.pdb
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\bin\Debug\Dados.dll.config
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\bin\Debug\TO.pdb
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\obj\Debug\Repositorio.csproj.AssemblyReference.cache
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\Repositorio\obj\Debug\Repositorio.pdb

@@ -1,0 +1,6 @@
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\TO\bin\Debug\TO.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\TO\bin\Debug\TO.pdb
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\TO\obj\Debug\TO.csproj.AssemblyReference.cache
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\TO\obj\Debug\TO.csproj.CoreCompileInputs.cache
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\TO\obj\Debug\TO.dll
+C:\Users\100749\Desktop\Karla\POS PUC\9. Arquitetura de Software Plataforma .NET\projeto-materelizacao\TO\obj\Debug\TO.pdb
