@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetMeusPacientes">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetMeusPacientesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMeusPacientesResult" type="tns:ArrayOfPacienteTO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfPacienteTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PacienteTO" nillable="true" type="tns:PacienteTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PacienteTO">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomeMae" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Nascimento" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="Sexo" type="tns:SexoEnum" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="SexoEnum">
+        <s:restriction base="s:string">
+          <s:enumeration value="Masculino" />
+          <s:enumeration value="Feminino" />
+          <s:enumeration value="NaoInformado" />
+        </s:restriction>
+      </s:simpleType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetMeusPacientesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMeusPacientes" />
+  </wsdl:message>
+  <wsdl:message name="GetMeusPacientesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMeusPacientesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServicoSoap">
+    <wsdl:operation name="GetMeusPacientes">
+      <wsdl:input message="tns:GetMeusPacientesSoapIn" />
+      <wsdl:output message="tns:GetMeusPacientesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServicoSoap" type="tns:ServicoSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMeusPacientes">
+      <soap:operation soapAction="http://tempuri.org/GetMeusPacientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServicoSoap12" type="tns:ServicoSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMeusPacientes">
+      <soap12:operation soapAction="http://tempuri.org/GetMeusPacientes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Servico">
+    <wsdl:port name="ServicoSoap" binding="tns:ServicoSoap">
+      <soap:address location="http://127.0.0.1/Servico/Servico.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServicoSoap12" binding="tns:ServicoSoap12">
+      <soap12:address location="http://127.0.0.1/Servico/Servico.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
